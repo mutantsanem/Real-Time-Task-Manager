@@ -19,4 +19,4 @@ async def test_db(db: AsyncSession = Depends(get_db)):
 
 @app.get('/')
 async def root():
-    return {'message' : 'task manger backend running' }
+    return {'message' : 'task manger backend running'}
